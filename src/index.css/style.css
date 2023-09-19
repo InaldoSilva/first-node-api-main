@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-bottom: solid 1px ;
+    height: 80px;
+}
+
+.titulo {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3rem;
+    color: #1f1f0f;
+}
+
+body {
+    background: aliceblue;    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    border: solid 1px #111111;
+    border-radius: 10px;
+    width: 35vw;
+    height: 70vh, auto;
+    margin: 20px auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.input {
+    border: solid 1px #111111;
+    border-radius: 5px;
+}
+
+.btn {
+    margin: auto;
+    background-color: aliceblue;
+    color: #111111;
+    border: solid 1px rgb(175, 172, 172);
+    border-radius: 5px;
+    height: 20px;
+    width: 65px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background: #408901;
+    color: white;
+    text-transform: uppercase;
+    font-size: .6rem;
+}
+
+.task-list {
+    width: 29vw;
+    background-color: antiquewhite;
+    font-weight: 500;
+    border: solid 1px #111111;
+    border-radius: 10px;
+    margin:50px auto;
+    padding: 10px;
+}
+
+#taskList {
+    list-style: none;
+    text-transform: uppercase;
+    font-size: .8rem;
+}
+
+#taskList > li > button {
+    background-color: aliceblue;
+    border: solid 1px #111111;
+    border-radius: 2px;
+    margin: 2px;
+    width: auto;
+}
+
+#taskList > li > button:hover {
+    cursor:pointer;
+    background-color: #408901;
+}
